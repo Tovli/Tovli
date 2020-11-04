@@ -6,7 +6,7 @@
 Welcome to the `Tovli` project! Let's run a few commands to get to know eachother...
 
 ### $ whoami  
-Tovli is a software engineer 👨‍💻 and professional podcaster, in the Israeli management domain
+Tovli is a Leader 👨‍💻 and professional podcaster, in the Israeli management domain
 
 ### $ pronouns  
 he / him / his
