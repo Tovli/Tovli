@@ -12,8 +12,8 @@ Tovli is a Leader 👨‍💻 and professional podcaster, in the Israeli managem
 he / him / his
 
 ### $ where_are_you  
-Tovli is currently a Team leader at Cyberark,  
-building the latest-and-greatest tools with the Palm Tree  Team 🧰
+Tovli is currently a Group Manager at Cyberark,  
+building the latest-and-greatest tools with the pCeS group 🧰
 
 ### $ what current_projects  
 I’m currently working on open-source integrations for projects like  
@@ -28,6 +28,6 @@ I’m currently working on open-source integrations for projects like
 🤝 Yes! Shoot me a message if you have a project you'd like help with. 
 
 ### What can I ask you about? 🤔
-💪 Best-practices for Git Workflows, C#, and Architecture
+💪 Best-practices for Git Workflows, system design, strategic thinking, C#, and Architecture
 
 How podcasts and programming are both used to tell stories
