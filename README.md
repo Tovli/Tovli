@@ -13,7 +13,7 @@ he / him / his
 
 ### $ where_are_you  
 Tovli is currently a RnD Director at eToro,  
-building the latest-and-greatest tools with the pCeS group 🧰
+building the latest-and-greatest tools with the Broker-Dealer data group 🧰
 
 ## Metadata
 
