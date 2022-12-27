@@ -12,12 +12,8 @@ Tovli is a Leader 👨‍💻 and professional podcaster, in the Israeli managem
 he / him / his
 
 ### $ where_are_you  
-Tovli is currently a Group Manager at Cyberark,  
+Tovli is currently a RnD Director at eToro,  
 building the latest-and-greatest tools with the pCeS group 🧰
-
-### $ what current_projects  
-I’m currently working on open-source integrations for projects like  
-[secrets-provider-for-k8s](https://github.com/cyberark/secrets-provider-for-k8s) and [Conjur](https://github.com/cyberark/conjur)!
 
 ## Metadata
 
