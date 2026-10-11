@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="320" viewBox="0 0 1100 320" role="img" aria-labelledby="title description">
+  <title id="title">Dekel Asaf — engineering leader, systems architect, and builder</title>
+  <desc id="description">A navy banner with blue connections linking Build, Lead, Explain, and Serve. Signals flow gently through the network.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#071b37"/>
+      <stop offset="1" stop-color="#102d55"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#357bf4" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#357bf4" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#8cb6ff" stroke-opacity=".06"/>
+    </pattern>
+    <path id="build-lead" d="M790 80L950 110"/>
+    <path id="lead-explain" d="M950 110L910 240"/>
+    <path id="explain-serve" d="M910 240L740 215"/>
+    <path id="serve-build" d="M740 215L790 80"/>
+  </defs>
+  <style>
+    text { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .signal { stroke-dasharray: 5 180; animation: flow 7s linear infinite; }
+    .signal-offset { animation-delay: -3.5s; }
+    .halo { transform-box: fill-box; transform-origin: center; animation: breathe 6s ease-in-out infinite; }
+    @keyframes flow { to { stroke-dashoffset: -370; } }
+    @keyframes breathe { 0%, 100% { opacity: .35; transform: scale(1); } 50% { opacity: .75; transform: scale(1.12); } }
+    @media (prefers-reduced-motion: reduce) { .signal, .halo { animation: none; } }
+  </style>
+  <rect width="1100" height="320" rx="20" fill="url(#background)"/>
+  <rect width="1100" height="320" rx="20" fill="url(#grid)"/>
+  <circle cx="855" cy="165" r="155" fill="url(#glow)"/>
+  <path d="M48 50H80" stroke="#72a8ff" stroke-width="3" stroke-linecap="round"/>
+  <text x="94" y="55" fill="#a7c8ff" font-size="12" font-weight="600" letter-spacing="3">ENGINEER / LEADER / BUILDER</text>
+  <text x="48" y="126" fill="#f4f8ff" font-size="54" font-weight="700" letter-spacing="-2">Dekel Asaf.</text>
+  <text x="50" y="175" fill="#8cb6ff" font-size="27">Build systems. Grow people.</text>
+  <text x="50" y="211" fill="#c1d1e7" font-size="17">Architecture, practical AI, and technology with human impact.</text>
+  <text x="50" y="276" fill="#a7c8ff" font-size="12" letter-spacing="2">TOVLI</text>
+  <path d="M118 272H152" stroke="#72a8ff" stroke-opacity=".5"/>
+  <text x="166" y="276" fill="#c1d1e7" font-size="13">me.tovli.co.il</text>
+  <g fill="none" stroke="#72a8ff" stroke-opacity=".3" stroke-width="1.5">
+    <use href="#build-lead"/><use href="#lead-explain"/>
+    <use href="#explain-serve"/><use href="#serve-build"/>
+    <path d="M790 80L910 240M950 110L740 215" stroke-opacity=".12"/>
+    <circle cx="850" cy="160" r="116" stroke-opacity=".1"/>
+  </g>
+  <g fill="none" stroke="#b4d0ff" stroke-width="2.5" stroke-linecap="round">
+    <use href="#build-lead" class="signal"/><use href="#lead-explain" class="signal signal-offset"/>
+    <use href="#explain-serve" class="signal"/><use href="#serve-build" class="signal signal-offset"/>
+  </g>
+  <g fill="#357bf4" fill-opacity=".12" stroke="#72a8ff" stroke-opacity=".4">
+    <circle class="halo" cx="790" cy="80" r="19"/>
+    <circle class="halo" cx="950" cy="110" r="19"/>
+    <circle class="halo" cx="910" cy="240" r="19"/>
+    <circle class="halo" cx="740" cy="215" r="19"/>
+  </g>
+  <g fill="#b4d0ff">
+    <circle cx="790" cy="80" r="5"/><circle cx="950" cy="110" r="5"/>
+    <circle cx="910" cy="240" r="5"/><circle cx="740" cy="215" r="5"/>
+  </g>
+  <g fill="#eaf1ff" font-size="12" font-weight="600" letter-spacing="2">
+    <text x="790" y="44" text-anchor="middle">BUILD</text>
+    <text x="979" y="115">LEAD</text>
+    <text x="910" y="284" text-anchor="middle">EXPLAIN</text>
+    <text x="740" y="258" text-anchor="middle">SERVE</text>
+  </g>
+</svg>
