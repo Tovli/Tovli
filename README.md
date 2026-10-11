@@ -1,10 +1,16 @@
 [![Dekel Asaf — engineering leader, systems architect, and builder](assets/profile-banner.svg)](https://me.tovli.co.il)
 
+<a href="https://me.tovli.co.il">
+  <img src="assets/dekel-asaf.png" alt="Dekel Asaf smiling" width="170" align="right" />
+</a>
+
 # Hi, I'm Dekel 👋
 
 You might know me as **Tovli**. I build software, help engineering teams grow, and explore how AI can solve useful problems. My work connects architecture, people, and the purpose behind what we're building.
 
 Today I'm a **technical partner at [Cognitum](https://cognitum.one)** and **co-founder & CTO at [Mall Shop Link](https://www.mallshoplink.com)**. My background includes engineering leadership at Transmit Security, eToro, and CyberArk, spanning cybersecurity, fintech, and complex product systems.
+
+<br clear="right" />
 
 ### What I'm building
 
