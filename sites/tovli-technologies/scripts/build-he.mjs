@@ -150,8 +150,8 @@ let html = source;
 for (const [english, hebrew] of translations.sort((a,b) => b[0].length - a[0].length)) html = html.replaceAll(english, hebrew);
 html = html.replace('<html lang="en">', '<html lang="he" dir="rtl">')
   .replace('content="en_US"', 'content="he_IL"')
-  .replace('property="og:url" content="https://tovli-technologies.clubhouseami-7520.chatgpt.site/en/"', 'property="og:url" content="https://tovli-technologies.clubhouseami-7520.chatgpt.site/"')
-  .replace('rel="canonical" href="https://tovli-technologies.clubhouseami-7520.chatgpt.site/en/"', 'rel="canonical" href="https://tovli-technologies.clubhouseami-7520.chatgpt.site/"')
+  .replace('property="og:url" content="https://www.tovli.co.il/en/"', 'property="og:url" content="https://www.tovli.co.il/"')
+  .replace('rel="canonical" href="https://www.tovli.co.il/en/"', 'rel="canonical" href="https://www.tovli.co.il/"')
   .replace('class="site-language" href="/" lang="he" hreflang="he" aria-label="Switch site to Hebrew">עברית', 'class="site-language" href="/en/" lang="en" hreflang="en" aria-label="Switch site to English">English')
   .replaceAll('src="assets/', 'src="/assets/')
   .replaceAll('/assets/tovli-logo-en.png', '/assets/tovli-logo-he.png')
